@@ -1,4 +1,4 @@
-Mountain View Observation Center
+#Mountain View Observation Center
 ==============
 
 *A generative, abstract sort-of installation (aka screensaver) based on various filling- and neighbouralgorithms.*
@@ -7,25 +7,29 @@ Mountain View Observation Center
 
 
 
-Preferable background music: 
+####Prefered background music: 
 
-  https://www.youtube.com/watch?v=NmCCQxVBfyM
+  * https://www.youtube.com/watch?v=NmCCQxVBfyM
 
-
-
-
-*upd. 14-04-19*
-
-added basic gui
-grid system revamped
-code cleaned
-
-*upd. 14-04-19*
-
-first commit
+  
+  
 
 
+**upd. 22_04_14**
 
-**preview**
+* added basic gui
+* grid system revamped
+* code cleaned    
+
+    
+
+**upd. 19_04_14**
+
+* first commit    
+
+  
+
+
+###**preview**
 
 https://www.flickr.com/photos/116800975@N05/sets/72157644144490204/
