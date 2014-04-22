@@ -1,16 +1,15 @@
 Mountain View Observation Center
 ==============
 
-A generative, abstract sort-of installation (aka screensaver) based on various filling- and neighbouralgorithms.
+*A generative, abstract sort-of installation (aka screensaver) based on various filling- and neighbouralgorithms.*
+*Code pieces based on work by Martin Schneider.*
+*Name is a pun.*
 
-Code pieces based on work by Martin Schneider.
-
-Name is a pun.
 
 
 Preferable background music: 
 
-https://www.youtube.com/watch?v=NmCCQxVBfyM
+  https://www.youtube.com/watch?v=NmCCQxVBfyM
 
 
 
