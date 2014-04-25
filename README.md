@@ -13,7 +13,10 @@
 
   
   
+**upd. 25_04_14**  
 
+* grid control
+* option 4 even distribution of the grid  
 
 **upd. 22_04_14**
 
@@ -33,3 +36,8 @@
 ###**preview**
 
 https://www.flickr.com/photos/116800975@N05/sets/72157644144490204/
+
+
+###**bugs**
+
+* destructive filling after a while
