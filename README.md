@@ -38,6 +38,13 @@
 https://www.flickr.com/photos/116800975@N05/sets/72157644144490204/
 
 
+###**to do**  
+
+* sound(/music)
+* gui aesthetics
+* compatibility (processing/android)
+
+
 ###**bugs**
 
 * destructive filling after a while
