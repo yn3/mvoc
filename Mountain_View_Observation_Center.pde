@@ -36,10 +36,10 @@ color hfill_color,hfill_t_color,d1_color,d1_t_color,
 final int FALSE = 0, TRUE = 1, MAYBE = -1;
 
 int sw = 1, cnt = 0, speed = 7000,
-    speedlimit = 4500, md = 0, cutoffh,cutoffw, rv1;
+    speedlimit = 4500, md = 0, cutoffh,cutoffw, rv1, gridmin = 1, gridmax = 8;
 
 float ran2 = random(1.6,2.6);
-boolean fw = false;
+boolean fw = false, g_distro = false;
 
 
 

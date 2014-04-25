@@ -18,8 +18,8 @@ void guimods(){
      .setPosition(cutoffw*2.7,int(cutoffh/3))
      .setSize(200,int(cutoffh/1.8)+2)
      .setRange(0,100)
-     .setValue(100)
-     .setLabel("        DETAIL")
+     .setValue(50)
+     .setLabel("        FILLSIZE")
      .setColorCaptionLabel(234);
    cp5.getController("detail").getCaptionLabel().align(ControlP5.RIGHT, ControlP5.BOTTOM_OUTSIDE);
    cp5.addToggle("fancyWater")
@@ -29,7 +29,23 @@ void guimods(){
      .setMode(ControlP5.SWITCH)
      .setLabel("             Fancy Water")
      .setColorCaptionLabel(234); 
-  
+   cp5.addRange("gridsize")
+     .setPosition(cutoffw*4.4,int(cutoffh/3))
+     .setSize(200,int(cutoffh/1.8))
+     .setHandleSize(1)
+     .setRange(1,40)
+     .setRangeValues(1,8)
+     .setColorLabel(fg_color-2)
+     .setLabel("            # of Screens")
+     ;
+   cp5.getController("gridsize").getCaptionLabel().align(ControlP5.RIGHT, ControlP5.BOTTOM_OUTSIDE);
+    cp5.addToggle("evenGrid")
+     .setPosition(cutoffw*5.4,int(cutoffh/3))
+     .setSize(100,int(cutoffh/1.8))
+     .setValue(false)
+     .setMode(ControlP5.SWITCH)
+     .setLabel("               Even Grid")
+     .setColorCaptionLabel(234); 
 }
 
 
@@ -62,3 +78,23 @@ void fancyWater(boolean active) {
   }
 
 }
+
+
+void evenGrid(boolean active) {
+  if(active) {
+    g_distro=true;
+  } else {
+    g_distro=false;
+  }
+
+}
+
+
+void controlEvent(ControlEvent theControlEvent) {
+  if(theControlEvent.isFrom("gridsize")) {
+    gridmin = int(theControlEvent.getController().getArrayValue(0));
+    gridmax = int(theControlEvent.getController().getArrayValue(1));
+  }
+  
+}
+

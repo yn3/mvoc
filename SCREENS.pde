@@ -5,23 +5,29 @@ void reset() {
     fill(fg_color); noStroke();
     rect(20, 20+cutoffh, width-40, displayHeight-cutoffh-40);
 
-   int colrow = int(random(1,8));
-
+   int colrow = int(random(gridmin,gridmax));
+   
    for(int i = 0; i < colrow; i++) {
-    
+     
+    int distrox = (width/colrow)*i;
+    int distroy = (height/colrow)*i;
     float r = random(10, 209);
     float x = random(r, width - r);
     float y = random(r+cutoffh, height - r);
     
  
     stroke(bg_color);
-    strokeWeight(random(2,10));
+    strokeWeight(int(random(2,4)));
+    if(g_distro){
+    line(distrox,0,distrox,height); 
+    line(0,distroy,width,distroy); 
+    }else{
     line(x,0,x,height); 
-    line(0,y,width,y); 
-
+    line(0,y,width,y);  
+    }
+    
     fill(fg_color);
     ellipse(x, y, r, r);
-  
 
   }
   
