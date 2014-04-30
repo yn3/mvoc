@@ -13,6 +13,15 @@
 
   
   
+  
+**upd. 30_04_14**  
+
+* 2 new environments (desert, greenlands, default is retro)
+* more options
+* bugfixing yeah 
+  
+  
+  
 **upd. 25_04_14**  
 
 * grid control
@@ -41,10 +50,14 @@ https://www.flickr.com/photos/116800975@N05/sets/72157644144490204/
 ###**to do**  
 
 * sound(/music)
-* gui aesthetics
+* gui aesthetics/arrangement
 * compatibility (processing/android)
 
 
 ###**bugs**
 
 * destructive filling after a while
+* display error on smartphone
+
+
+Tested on Samsung Galaxy S3 LTE
